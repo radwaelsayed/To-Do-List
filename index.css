@@ -1,0 +1,54 @@
+.formWrapper{
+    background-color:#d5d6e6;
+    color: black;
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
+    padding: 1.5rem;
+    border: 1px solid #d29090;
+
+
+}
+ .inputWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .inputWrapper input{
+    width: 50%;
+    margin: 0.5rem;
+    padding: 0.5rem;
+ }
+ .btnWrapper{
+     display: flex;
+    justify-content: center;
+}
+ button {
+    width: 15%;
+    padding: 0.3rem;
+    margin-left: 0.3rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    color: #3d466f;
+
+ }
+ .userList{
+     list-style: none;
+     color: #3d466f;
+     text-align: center;
+     width: 45%;
+     margin: 10px auto;
+     padding: 1.5rem;
+    
+ 
+ }
+ .userList li:nth-child(even){
+     background-color: #b4b7c5;
+     border: 1px solid #b4b7c5;
+     padding: 0.3rem
+ }
+ .userList li:nth-child(odd){
+    background-color: #9599ab;
+    border: 1px solid #b4b7c5;
+    padding: 0.3rem
+}
